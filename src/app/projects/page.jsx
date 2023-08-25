@@ -7,35 +7,53 @@ import { Footer } from 'src/app/components/footer/footer.jsx'
 const projects = [
   {
     title: "Drawing Hands",
-    desc: "Inspired by MC Escher's 'Drawing Hands', I experimented with digitally hand-painted depthmap images that I passed into a Stable Diffusion AI model as depth information to generate a logo representing human and AI in collaboration.",
+    desc: "digitally hand-painted depthmap images of 'drawing hands' passed into a stable diffusion ai model as depth information to generate a logo representing human and AI in collaboration.",
     img: "/images/depthMap_16.png",
-    href: "https://docs.google.com/presentation/d/e/2PACX-1vRltiDEraUNGqveIuMLLGXEL4heZMHh3-7fAANRVmqH_ppOb5pdNDDb-BxGE9eSskFR9DF81T_P18sX/pub?start=false&loop=false&delayms=3000"
+    href: "https://docs.google.com/presentation/d/e/2PACX-1vRltiDEraUNGqveIuMLLGXEL4heZMHh3-7fAANRVmqH_ppOb5pdNDDb-BxGE9eSskFR9DF81T_P18sX/pub?start=false&loop=false&delayms=3000",
+    tags: []
   },
   {
-    title: "Seeing comes before words",
-    desc: "A zine of visual meditation games I made for Sou'wester Artsweek 2022 in Seaview, WA",
+    title: "seeing comes before words",
+    desc: "zine of visual meditation games",
     img: "/images/eye.png",
-    href: "/seeingzine"
+    href: "/projects/seeingzine",
+    tags: []
   },
   {
-    title: "Ceramics for deep listening",
-    desc: "Raku fired ceramics devices for focusing and filtering sensory attention. These are inspired by Pauline Oliveros' Deep Listening practices and an urgent desire to unlearn cultural attachment to our devices and \"re-vice\" a connection to our sensory experience.",
+    title: "ceramics for deep listening",
+    desc: "raku fired ceramics devices for focusing and filtering sensory attention, unlearn cultural attachment to devices",
     img: "/images/ceramicsForDeepListening.jpg",
-    href: ""
+    href: "",
+    tags: []
   },
-  // {
-  //   title: "Arrows pointers",
-  //   desc: "this is a project about getting lost, losing direction in the process of abstraction: and making meaning from the visual artifacts gained along the way. various media: photograph, painting, photocopy, scan, print, scan, print, photo, scan, print, color pencil, solvent, scan.",
-  //   img: "/images/arrowsFingers.jpg",
-  //   href: ""
-  // }
+  {
+    title: "latent space animations",
+    desc: "animation experiments through visual latent space using image input to stable diffusion ai models",
+    img: "/images/animation/riley.png",
+    href: "/animation",
+    tags: []
+  },
+  {
+    title: "i/o \u221E",
+    desc: "One output is another input - Svisual artifacts made along the way.",
+    img: "/images/arrowsFingers.jpg",
+    href: "",
+    tags: []
+  },
+  {
+    title: "sketchbook",
+    desc: "pocket-sized drawings of stuff I see",
+    img: "/images/drawings/signs_w.jpg",
+    href: "/drawing",
+    tags: []
+  }
 ]
 
 export default () => {
   return (
     <div className='bg-white'>
       <Header />
-      <h2 className='px-4 text-2xl text-gray-700 font-bold'>Projects</h2>
+      {/* <h2 className='px-4 text-2xl text-gray-700 font-bold'>Projects</h2> */}
       <ul className="">
         {
           projects.map((items, key) => (
