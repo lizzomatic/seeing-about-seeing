@@ -45,10 +45,11 @@ export default function Home() {
       </Head>
       <Header />
       <main className='bg-white'>
-        <div className='px-4 grid'>
+
+        <Link className='px-4 grid' href='/projects' >
           <Image src="/images/iDontKnowNorKnowWhoKnows_01.jpeg" className='' width="600" height="600"
             alt="a striped faceless figure with butterfly wings as ears" />
-        </div>
+        </Link>
       </main >
       <Footer />
 
