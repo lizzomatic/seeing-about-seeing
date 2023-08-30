@@ -145,4 +145,3 @@ const projects = [
     tags: ['data', 'illustration', 'color']
   }
 ]
-]
