@@ -6,10 +6,6 @@ import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image';
 import Link, { LinkProps } from 'next/link';
-// import Lottie from "lottie-react-native";
-
-
-import { render } from 'react-dom';
 import { Gallery } from "react-grid-gallery";
 import { Header } from 'src/app/components/header/header.jsx';
 import { Footer } from 'src/app/components/footer/footer.jsx';

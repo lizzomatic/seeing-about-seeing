@@ -1,21 +1,15 @@
 import Head from 'next/head'
-//import Document, { Html, Head, Main, NextScript } from "next/document";
 import Image from 'next/image';
-import { Inter } from 'next/font/google'
-// import Link from 'next/link'
+
 import Link, { LinkProps } from "next/link"
 import { Header } from '/src/app/components/header/header.jsx';
 import { Footer } from '/src/app/components/footer/footer.jsx';
-// import 'react-multi-carousel/lib/styles.css';
 import { Metadata } from 'next'
 
 export const metadata = {
   title: 'seeing about seeing',
   icon: 'images/favicon.ico',
 }
-
-const inter = Inter({ subsets: ['latin'] })
-
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },

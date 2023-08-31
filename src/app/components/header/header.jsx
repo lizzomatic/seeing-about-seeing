@@ -21,8 +21,10 @@ export const Header = () => {
           <Link href='/'>
             <Image src='/images/seeing_logo.png' width={125} height={125} alt='seeing about seeing' />
           </Link>
+
           {/* <Link href='/' className="text-3xl font-bold text-gray-700">seeing about seeing</Link> */}
           <div className="md:hidden">
+
             <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
               onClick={() => setState(!state)}
             >
