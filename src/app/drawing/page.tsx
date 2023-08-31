@@ -5,9 +5,10 @@ import React from 'react';
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer";
 import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
+//import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { images, CustomImage } from "./images";
+
 
 
 export default () => {
@@ -28,28 +29,9 @@ export default () => {
     <div className='bg-white px-4'>
       <Header />
       <h3>Pocket-sized drawings of stuff I see. I draw to tune my vision.</h3>  
-        <Gallery
-        images={images}
-        onClick={handleClick}
-        enableImageSelection={false}
-        />
-   
-      
-      {!!currentImage && (
-        /* @ts-ignore */
-        <Lightbox
-          mainSrc={currentImage.src}
-          imageTitle={currentImage.caption}
-          mainSrcThumbnail={currentImage.src}
-          nextSrc={nextImage.src}
-          nextSrcThumbnail={nextImage.src}
-          prevSrc={prevImage.src}
-          prevSrcThumbnail={prevImage.src}
-          onCloseRequest={handleClose}
-          onMovePrevRequest={handleMovePrev}
-          onMoveNextRequest={handleMoveNext}
-        />
-      )}
+        <Gallery images={images}/>
+
+    
       <Footer />
     </div>
   );
