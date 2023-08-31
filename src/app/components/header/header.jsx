@@ -22,7 +22,7 @@ export const Header = () => {
             <Image src='/images/seeing_logo.png' width={125} height={125} alt='seeing about seeing' />
           </Link>
 
-          {/* <Link href='/' className="text-3xl font-bold text-gray-700">seeing about seeing</Link> */}
+
           <div className="md:hidden">
 
             <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
@@ -42,6 +42,7 @@ export const Header = () => {
             </button>
           </div>
         </div>
+        <Link href='/' className="text-3xl text-gray-700">seeing about seeing</Link>
         <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {

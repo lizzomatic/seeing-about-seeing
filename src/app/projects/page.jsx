@@ -6,7 +6,14 @@ import { Footer } from 'src/app/components/footer/footer.jsx'
 
 const projects = [
   {
-    title: "Drawing Hands",
+    title: "sketchbook",
+    desc: "pocket-sized drawings of stuff I see",
+    img: "/images/drawings/signs_w.jpg",
+    href: "/drawing",
+    tags: []
+  },
+  {
+    title: "drawing hands",
     desc: "digitally hand-painted depthmap images of 'drawing hands' passed into a stable diffusion ai model as depth information to generate a logo representing human and AI in collaboration.",
     img: "/images/depthMap_16.png",
     href: "https://docs.google.com/presentation/d/e/2PACX-1vRltiDEraUNGqveIuMLLGXEL4heZMHh3-7fAANRVmqH_ppOb5pdNDDb-BxGE9eSskFR9DF81T_P18sX/pub?start=false&loop=false&delayms=3000",
@@ -38,13 +45,6 @@ const projects = [
     desc: "One output is another input - Svisual artifacts made along the way.",
     img: "/images/arrowsFingers.jpg",
     href: "",
-    tags: []
-  },
-  {
-    title: "sketchbook",
-    desc: "pocket-sized drawings of stuff I see",
-    img: "/images/drawings/signs_w.jpg",
-    href: "/drawing",
     tags: []
   }
 ]
