@@ -1,10 +1,4 @@
-import { Image } from "react-grid-gallery";
-
-export interface CustomImage extends Image {
-  alt: string;
-}
-
-export const images: CustomImage[] = [
+export const images = [
 
   {
     src: '/images/drawings/c_cafe.png',
