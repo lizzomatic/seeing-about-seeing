@@ -4,9 +4,6 @@ import { useCallback, useState, useId } from 'react';
 import React, { useRef } from 'react';
 import { Header } from "../components/header/header";
 import { Footer } from "../components/footer/footer.jsx";
-import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 import { images, CustomImage } from "./images";
 
 const projects = [

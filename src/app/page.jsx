@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image';
-
 import Link, { LinkProps } from "next/link"
 import { Header } from '/src/app/components/header/header.jsx';
 import { Footer } from '/src/app/components/footer/footer.jsx';
