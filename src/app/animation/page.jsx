@@ -6,7 +6,6 @@ import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image';
 import Link, { LinkProps } from 'next/link';
-import { Gallery } from "react-grid-gallery";
 import { Header } from 'src/app/components/header/header.jsx';
 import { Footer } from 'src/app/components/footer/footer.jsx';
 
@@ -44,9 +43,13 @@ export default () => {
     <div className='bg-white'>
       <Header />
       <h1>animations through visual latent space</h1>
-      <p>uses visual input to a stable diffusion ai image model</p>
+      <p>uses depthmap input to a stable diffusion ai image model</p>
 
-      <Gallery images={images02} />
+      <Image src={images02[0]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
+      <Image src={images02[1]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
+      <Image src={images02[2]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
+      <Image src={images02[3]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
+
       <Footer />
     </div>
   )
