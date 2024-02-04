@@ -200,7 +200,6 @@ export default () => {
       <Image src={images1[14]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[15]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[16]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[17]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[18]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[19]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[20]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
