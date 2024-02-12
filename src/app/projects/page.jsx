@@ -36,7 +36,7 @@ const projects = [
   {
     title: "sketchbook",
     desc: "pocket-sized drawings of stuff I see",
-    img: "/images/drawings/signs_w.jpg",
+    img: "/images/drawings/signs_w.png",
     href: "/drawing",
     tags: []
   },
