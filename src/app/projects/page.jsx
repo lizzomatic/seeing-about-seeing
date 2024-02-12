@@ -13,6 +13,13 @@ const projects = [
     tags: []
   },
   {
+    title: "latent space animations",
+    desc: "animation experiments through visual latent space using image input to stable diffusion ai models",
+    img: "/images/animation/riley.png",
+    href: "/animation",
+    tags: []
+  },
+  {
     title: "seeing comes before words",
     desc: "zine of visual meditation games",
     img: "/images/eye.png",
@@ -24,13 +31,6 @@ const projects = [
     desc: "raku fired ceramics devices for focusing and filtering sensory attention, unlearn cultural attachment to devices",
     img: "/images/ceramicsForDeepListening.jpg",
     href: "",
-    tags: []
-  },
-  {
-    title: "latent space animations",
-    desc: "animation experiments through visual latent space using image input to stable diffusion ai models",
-    img: "/images/animation/riley.png",
-    href: "/animation",
     tags: []
   },
   {
