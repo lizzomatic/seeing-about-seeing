@@ -7,25 +7,25 @@ import { Footer } from "../components/footer/footer";
 
 const images1 = [
   {
-    src: '/images/drawings/S1.jpg',
+    src: '/images/drawings/S1.png',
     width: 4,
     height: 6,
     alt: ""
   },
   {
-    src: '/images/drawings/S2.jpg',
+    src: '/images/drawings/S2.png',
     width: 4,
     height: 6,
     alt: ""
   },
   {
-    src: '/images/drawings/S3.jpg',
+    src: '/images/drawings/S3.png',
     width: 4,
     height: 6,
     alt: ""
   },
   {
-    src: '/images/drawings/S4.jpg',
+    src: '/images/drawings/S4.png',
     width: 6,
     height: 4,
     alt: ""
