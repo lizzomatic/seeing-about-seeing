@@ -9,7 +9,6 @@ export const Header = () => {
 
   const navigation = [
     { title: "Projects", path: "/projects" },
-    { title: "Blog", path: "/blog" },
     { title: "About", path: "/about" }
   ]
 
@@ -42,7 +41,7 @@ export const Header = () => {
             </button>
           </div>
         </div>
-        <Link href='/' className="text-3xl text-gray-700">seeing about seeing</Link>
+        <Link href='/' className="text-3xl text-gray-700 font-bold">seeing about seeing</Link>
         <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {

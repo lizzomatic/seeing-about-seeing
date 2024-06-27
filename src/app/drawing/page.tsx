@@ -96,38 +96,9 @@ const images1 = [
     height: 6,
     alt: ""
   },
-  {
-    src: '/images/drawings/S16.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
-  {
-    src: '/images/drawings/S17.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
+
   {
     src: '/images/drawings/S18.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
-  {
-    src: '/images/drawings/S19.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
-  {
-    src: '/images/drawings/S20.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
-  {
-    src: '/images/drawings/S21.png',
     width: 4,
     height: 6,
     alt: ""
@@ -162,18 +133,6 @@ const images1 = [
     height: 6,
     alt: ""
   },
-  {
-    src: '/images/drawings/S27.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  },
-  {
-    src: '/images/drawings/S28.png',
-    width: 4,
-    height: 6,
-    alt: ""
-  }
 ]
 
 export default () => {
@@ -194,7 +153,6 @@ export default () => {
       <Image src={images1[8]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[9]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[10]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[11]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[12]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[13]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[14]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
@@ -203,13 +161,7 @@ export default () => {
       <Image src={images1[18]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[19]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
       <Image src={images1[20]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[21]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[22]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[23]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[24]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[25]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[26]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
-      <Image src={images1[27]} loading="lazy" alt={''} className="p-4" width={400} height={400} />
+
 
       <Footer />
     </div>

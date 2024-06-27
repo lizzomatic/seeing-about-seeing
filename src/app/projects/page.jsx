@@ -7,16 +7,23 @@ import { Footer } from 'src/app/components/footer/footer.jsx'
 const projects = [
   {
     title: "drawing hands",
-    desc: "digitally hand-painted depthmap images of 'drawing hands' passed into a stable diffusion ai model as depth information to generate a logo representing human and AI in collaboration.",
+    desc: "branding/visual identity work for a startup exploring AI-human collaboration. I used digitally hand-painted depthmap images of MC Escher's'drawing hands' passed into a stable diffusion ai model as depth information",
     img: "/images/depthMap_16.png",
     href: "https://docs.google.com/presentation/d/e/2PACX-1vRltiDEraUNGqveIuMLLGXEL4heZMHh3-7fAANRVmqH_ppOb5pdNDDb-BxGE9eSskFR9DF81T_P18sX/pub?start=false&loop=false&delayms=3000",
     tags: []
   },
   {
-    title: "latent space animations",
-    desc: "animation experiments through visual latent space using image input to stable diffusion ai models",
+    title: "maximalizing minimalism",
+    desc: "uses stable diffusion controlnet to explore big complex meaning in minimalist art",
     img: "/images/animation/riley.png",
-    href: "/animation",
+    href: "/projects/maximalize",
+    tags: []
+  },
+  {
+    title: "chairs challenge",
+    desc: "design challenge inspired by Bruno Munari chairs project",
+    img: "/images/chairs/chair_caring1.png",
+    href: "/projects/chairs",
     tags: []
   },
   {
@@ -28,25 +35,25 @@ const projects = [
   },
   {
     title: "ceramics for deep listening",
-    desc: "raku fired ceramics devices for focusing and filtering sensory attention, unlearn cultural attachment to devices",
+    desc: "raku fired ceramics devices for focusing and filtering sensory attention, and unlearning cultural attachment to devices",
     img: "/images/ceramicsForDeepListening.jpg",
-    href: "",
+    href: "/projects/sensoryraku",
     tags: []
   },
   {
     title: "sketchbook",
     desc: "pocket-sized drawings of stuff I see",
-    img: "/images/drawings/signs_w.png",
+    img: "/images/drawings/computers.png",
     href: "/drawing",
     tags: []
   },
   {
     title: "i/o \u221E",
-    desc: "One output is another input - visual artifacts made along the way.",
+    desc: "archive",
     img: "/images/arrowsFingers.jpg",
     href: "",
     tags: []
-  }
+  },
 ]
 
 export default () => {
@@ -59,7 +66,7 @@ export default () => {
           projects.map((items, key) => (
             <li className="p-1" key={key}>
               <Link className="flex sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" href={`${items.href}`} >
-                <Image src={items.img} loading="lazy" alt={items.title} className="p-2 flex-none" width={200} height={200} />
+                <Image src={items.img} loading="lazy" alt={items.title} className="p-2 flex-none" width={400} height={400} />
                 <div className="justify-items-start p3">
                   <h3 className="text-lg text-gray-800 duration-150 group-hover:text-gray-800 font-semibold">
                     {items.title}
